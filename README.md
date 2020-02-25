@@ -24,7 +24,37 @@
 
 # 自动驾驶中的算法汇总
 
-## 一、传感器标定融合
+## 辅助驾驶应用汇总
+
+#### 1、驾驶员状态监控
+
+#### 2、自适应巡航控制（ACC）
+
+#### 3、车道偏离预警（LDW）
+
+#### 4、前方碰撞预警（FCW)
+
+#### 5、行人碰撞预警（PCW）
+
+#### 6、智能限速识别（SLI)
+
+#### 7、驾驶员安全带检测
+
+#### 8、自动泊车
+
+#### 9、自动更变车道
+
+#### 10、倒车辅助
+
+#### 11、刹车辅助
+
+#### 12、自动跟车
+
+#### 13、疲劳驾驶检测
+
+#### 14、行驶状态预测
+
+## 传感器标定融合
 
 ### 传感器标定
 
@@ -33,7 +63,7 @@
 
 ### 数据融合
 
-## 二、感知
+## 感知
 
 ### 目标检测
 
@@ -244,14 +274,57 @@
 3. [Multi-object Tracking with Neural Gating Using Bilinear LSTM]()
 4. [Simple Online and Realtime Tracking]()
 5. [Simple Online and Realtime Tracking with a Deep Association Metric]()
+6. [Online Object Tracking: A Benchmark]()
+7. [Visual Tracking: An Experimental Survey]()
+8. [Multi-target Tracking]()
+9. [Multiple Object Tracking: A Literature Review]()
+10. [Survey on Leveraging Deep Neural Networks for Object Tracking]()
+11. 
 
-## 三、定位
+### 车道线检测
+
+1. Key Points Estimation and Point Instance Segmentation Approach for Lane Detection
+2. Multi-lane Detection Using Instance Segmentation and Attentive Voting
+3. A Learning Approach Towards Detection and Tracking of Lane Markings
+4. Real time Detection of Lane Markers in Urban Streets
+5. Real-Time Stereo Vision-Based Lane Detection System
+6. An Empirical Evaluation of Deep Learning on Highway Driving
+7. Real-Time Lane Estimation using Deep Features and Extra Trees Regression
+8. Accurate and Robust Lane Detection based on Dual-View Convolutional Neutral Network
+9. DeepLanes: E2E Lane Position Estimation using Deep NNs
+10. Deep Neural Network for Structural Prediction and Lane Detection in Traffic Scene
+11. End-to-End Ego Lane Estimation based on Sequential Transfer Learning for Self-Driving Cars
+12. Deep Learning Lane Marker Segmentation From Automatically Generated Labels
+13. VPGNet: Vanishing Point Guided Network for Lane and Road Marking Detection and Recognition
+14. Spatial as Deep: Spatial CNN for Traffic Scene Understanding
+15. Towards End-to-End Lane Detection: an Instance Segmentation Approach
+16. LaneNet: Real-Time Lane Detection Networks for Autonomous Driving
+17. 3D-LaneNet: E2E 3D multiple lane detection
+18. End-to-end Lane Detection through Differentiable Least-Squares Fitting
+19. Robust Lane Detection from Continuous Driving Scenes Using Deep Neural Networks
+20. Efficient Road Lane Marking Detection with Deep Learning
+21. LineNet: a Zoomable CNN for Crowdsourced High Definition Maps Modeling in Urban Environments
+22. Lane Marking Quality Assessment for Autonomous Driving
+
+
+
+### 交通灯和信号检测
+
+1. Vision for Looking at Traffic Lights: Issues, Survey, and Perspectives
+2. Vision-Based Traffic Sign Detection and Analysis for Intelligent Driver Assistance Systems: Perspectives and Survey
+3. Self-Driving Cars: A Survey
+4. Traffic-Sign Detection and Classification in the Wild
+5. A Deep Learning Approach to Traffic Lights: Detection, Tracking, and Classification
+
+
+
+## 定位
 
 
 
 
 
-## 四、路径规划
+## 路径规划
 
 
 
