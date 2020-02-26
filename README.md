@@ -4,7 +4,7 @@
 >
 > 来源：[3D视觉工坊](https://mp.weixin.qq.com/s?__biz=MzU1MjY4MTA1MQ==&mid=2247484684&idx=1&sn=e812540aee03a4fc54e44d5555ccb843&chksm=fbff2e38cc88a72e180f0f6b0f7b906dd616e7d71fffb9205d529f1238e8ef0f0c5554c27dd7&token=691734513&lang=zh_CN#rd)
 >
-> 针对自动驾驶领域的感知、定位、路径规划算法，以及常见仿真工具、国内外自动驾驶公司等进行了汇总~
+> 针对自动驾驶领域的传感器标定、感知算法，以及常见仿真工具、国内外自动驾驶公司等进行了汇总~
 
 
 
