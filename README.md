@@ -22,7 +22,23 @@
 2. [Apollo](https://github.com/ctripcorp/apollo)
 3. [ROS](https://www.ros.org/)
 
+# 自动驾驶数据集汇总
+
+1. [Udacity数据](https://link.zhihu.com/?target=https%3A//github.com/udacity/self-driving-car/tree/master/datasets)
+2. [Udacity雷达数据](https://github.com/udacity/self-driving-car/tree/master/datasets/CHX)
+3. [KITTI数据集](http://www.cvlibs.net/datasets/kitti/index.php)
+4. [Mighty AI视觉分类数据](https://mty.ai/dataset/)
+5. [Comma AI数据](http://research.comma.ai/)
+6. [摄像头数据](https://link.zhihu.com/?target=http%3A//robotcar-dataset.robots.ox.ac.uk/downloads/)
+7. [Apollo](https://github.com/ApolloAuto/apollo/tree/master/modules)
+
+
+
 # 自动驾驶中的算法汇总
+
+## 综述
+
+1. [A Survey of Autonomous Driving: Common Practices and Emerging Technologies](https://arxiv.org/pdf/1906.05113.pdf)
 
 ## 辅助驾驶应用汇总
 
@@ -62,6 +78,26 @@
 2. [CalibNet: Geometrically Supervised Extrinsic Calibration using 3D Spatial Transformer Networks](https://arxiv.org/abs/1803.08181)
 
 ### 数据融合
+
+#### 摄像头+Lidar数据融合
+
+1. LiDAR and Camera Calibration using Motion Estimated by Sensor Fusion Odometry
+2. Automatic Online Calibration of Cameras and Lasers
+3. Automatic Targetless Extrinsic Calibration of a 3D Lidar and Camera by Maximizing Mutual Information
+4. Automatic Calibration of Lidar and Camera Images using Normalized Mutual Information
+5. Integrating Millimeter Wave Radar with a Monocular Vision Sensor for On-Road Obstacle Detection Applications
+
+#### IMU+摄像头
+
+1. INS-Camera Calibration without Ground Control Points
+
+#### IMU+GPS
+
+#### IMU+GPS+MM
+
+#### 双目+IMU
+
+#### 激光雷达+IMU
 
 ## 感知
 
@@ -316,16 +352,6 @@
 3. Self-Driving Cars: A Survey
 4. Traffic-Sign Detection and Classification in the Wild
 5. A Deep Learning Approach to Traffic Lights: Detection, Tracking, and Classification
-
-
-
-## 定位
-
-
-
-
-
-## 路径规划
 
 
 
