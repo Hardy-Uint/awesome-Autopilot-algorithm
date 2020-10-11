@@ -5,8 +5,8 @@
 > 来源：[3D视觉工坊](https://mp.weixin.qq.com/s?__biz=MzU1MjY4MTA1MQ==&mid=2247484684&idx=1&sn=e812540aee03a4fc54e44d5555ccb843&chksm=fbff2e38cc88a72e180f0f6b0f7b906dd616e7d71fffb9205d529f1238e8ef0f0c5554c27dd7&token=691734513&lang=zh_CN#rd)
 >
 > 针对自动驾驶领域的传感器标定、融合、感知算法，以及常见仿真工具、国内外自动驾驶公司等进行了汇总~
-
-
+>
+> 公众号运营者和嘉宾介绍：运营者来自国内一线大厂的算法工程师，深研3D视觉、vSLAM、计算机视觉、点云处理、深度学习、自动驾驶、图像处理、三维重建等领域，特邀嘉宾包括国内外知名高校的博士硕士，旷视、商汤、百度、阿里等就职的算法大佬，欢迎一起交流学习！
 
 # 仿真工具
 
@@ -101,6 +101,10 @@ https://github.com/DeepTecher/awesome-autonomous-vehicle
 ## 综述
 
 1. [A Survey of Autonomous Driving: Common Practices and Emerging Technologies](https://arxiv.org/pdf/1906.05113.pdf)
+2. Self-Driving Cars: A Survey
+3. Towards Fully Autonomous Driving: Systems and Algorithms
+4. A Survey of Autonomous Driving: Common Practices and Emerging Technologies
+5. A Survey of Deep Learning Techniques for Autonomous Driving
 
 ## 辅助驾驶应用汇总
 
@@ -140,6 +144,13 @@ https://github.com/DeepTecher/awesome-autonomous-vehicle
 2. LSD线段检测
 
 ## 传感器标定融合
+
+### 多传感器融合综述
+
+- Multisensor data fusion: A review of the state-of-the-art
+- A Review of Data Fusion Techniques
+- A COMPREHENSIVE REVIEW OF THE MULTI-SENSOR DATA FUSION ARCHITECTURES
+- A Survey of Multisensor Fusion Techniques, Architectures and Methodologies
 
 ### 相机在线标定
 
@@ -275,23 +286,16 @@ https://github.com/DeepTecher/awesome-autonomous-vehicle
 
 1. [Task-Aware Monocular Depth Estimation for 3D Object Detection](https://arxiv.org/abs/1909.07701)
 2. [M3D-RPN: Monocular 3D Region Proposal Network for Object Detection](https://arxiv.org/abs/1907.06038v1)
-3. [Monocular 3D Object Detection with Pseudo-LiDAR Point Cloud](https://arxiv.org/pdf/1903.09847.pdf)
-4. [Monocular 3D Object Detection and Box Fitting Trained End-to-End Using Intersection-over-Union Loss](https://arxiv.org/pdf/1906.08070.pdf)
-5. [Disentangling Monocular 3D Object Detection](https://arxiv.org/pdf/1905.12365v1.pdf)
-6. [Shift R-CNN: Deep Monocular 3D Object Detection with Closed-Form Geometric Constraints](https://arxiv.org/pdf/1905.09970.pdf)
-7. [Monocular 3D Object Detection via Geometric Reasoning on Keypoints](https://arxiv.org/abs/1905.05618?context=cs.CV)
-8. [Monocular 3D Object Detection Leveraging Accurate Proposals and Shape Reconstruction](https://arxiv.org/abs/1904.01690)
-9. [GS3D: An Efficient 3D Object Detection Framework for Autonomous Driving](https://arxiv.org/abs/1903.10955)
-10. [Accurate Monocular Object Detection via Color-Embedded 3D Reconstruction for Autonomous Driving](https://arxiv.org/abs/1903.11444?context=cs.CV)
-11. [Task-Aware Monocular Depth Estimation for 3D Object Detection](https://arxiv.org/abs/1909.07701)
-12. [M3D-RPN: Monocular 3D Region Proposal Network for Object Detection](https://arxiv.org/abs/1907.06038v1)
-13. [YOLO3D: End-to-end real-time 3D Oriented Object Bounding Box Detection from LiDAR Point Cloud](https://arxiv.org/abs/1808.02350)
-14. [YOLO4D: A ST Approach for RT Multi-object Detection and Classification from LiDAR Point Clouds]()
-15. [Deconvolutional Networks for Point-Cloud Vehicle Detection and Tracking in Driving Scenarios](https://arxiv.org/abs/1808.07935)
-16. [PointRCNN: 3D Object Proposal Generation and Detection from Point Cloud](https://arxiv.org/abs/1812.04244)
-17. [Complex-YOLO: Real-time 3D Object Detection on Point Clouds](https://arxiv.org/abs/1803.06199)
-18. [FVNet: 3D Front-View Proposal Generation for Real-Time Object Detection from Point Clouds](https://arxiv.org/abs/1903.10750v1)
-19. [Part-A^2 Net: 3D Part-Aware and Aggregation Neural Network for Object Detection from Point Cloud](https://arxiv.org/abs/1907.03670v1)
+3. [Monocular 3D Object Detection and Box Fitting Trained End-to-End Using Intersection-over-Union Loss](https://arxiv.org/pdf/1906.08070.pdf)
+4. [Disentangling Monocular 3D Object Detection](https://arxiv.org/pdf/1905.12365v1.pdf)
+5. [Shift R-CNN: Deep Monocular 3D Object Detection with Closed-Form Geometric Constraints](https://arxiv.org/pdf/1905.09970.pdf)
+6. [Monocular 3D Object Detection via Geometric Reasoning on Keypoints](https://arxiv.org/abs/1905.05618?context=cs.CV)
+7. [Monocular 3D Object Detection Leveraging Accurate Proposals and Shape Reconstruction](https://arxiv.org/abs/1904.01690)
+8. [GS3D: An Efficient 3D Object Detection Framework for Autonomous Driving](https://arxiv.org/abs/1903.10955)
+9. [Accurate Monocular Object Detection via Color-Embedded 3D Reconstruction for Autonomous Driving](https://arxiv.org/abs/1903.11444?context=cs.CV)
+10. [Task-Aware Monocular Depth Estimation for 3D Object Detection](https://arxiv.org/abs/1909.07701)
+11. [M3D-RPN: Monocular 3D Region Proposal Network for Object Detection](https://arxiv.org/abs/1907.06038v1)
+12. [Deconvolutional Networks for Point-Cloud Vehicle Detection and Tracking in Driving Scenarios](https://arxiv.org/abs/1808.07935)
 
 #### 基于立体视觉的3D检测
 
@@ -318,19 +322,25 @@ https://github.com/DeepTecher/awesome-autonomous-vehicle
 11. [IPOD: Intensive Point-based Object Detector for Point Cloud](https://arxiv.org/abs/1812.05276v1)
 12. [PIXOR: Real-time 3D Object Detection from Point Clouds](http://www.cs.toronto.edu/~wenjie/papers/cvpr18/pixor.pdf)
 13. [DepthCN: Vehicle Detection Using 3D-LIDAR and ConvNet](https://www.baidu.com/link?url=EaE2zYjHkWvF33nsET2eNvbFGFu8-D3wWPia04uyKm95jMetHsSv3Zk-tODPGm5clsgCUgtVULsZ6IQqv0EYS_Z8El7Zzh57XzlJroSkaOuC8yv7r1XXL4bUrM2tWrTgjwqzfMV2tMTnFNbMOmHLTkUobgMg7HKoS6WW6PfQzkG&wd=&eqid=8f320cfa0005b878000000055e528b6d)
-14. [YOLO3D: End-to-end real-time 3D Oriented Object Bounding Box Detection from LiDAR Point Cloud](https://arxiv.org/abs/1808.02350)
-15. [Voxel-FPN: multi-scale voxel feature aggregation in 3D object detection from point clouds](https://arxiv.org/ftp/arxiv/papers/1907/1907.05286.pdf)
-16. [STD: Sparse-to-Dense 3D Object Detector for Point Cloud](https://arxiv.org/abs/1907.10471)
-17. [Fast Point R-CNN](https://arxiv.org/abs/1908.02990)
-18. [StarNet: Targeted Computation for Object Detection in Point Clouds](https://arxiv.org/abs/1908.11069)
-19. [Class-balanced Grouping and Sampling for Point Cloud 3D Object Detection](https://arxiv.org/abs/1908.09492v1)
-20. [LaserNet: An Efficient Probabilistic 3D Object Detector for Autonomous Driving](https://arxiv.org/abs/1903.08701v1)
-21. [Structure Aware Single-stage 3D Object Detection from Point Cloud（CVPR2020)](http://openaccess.thecvf.com/content_CVPR_2020/html/He_Structure_Aware_Single-Stage_3D_Object_Detection_From_Point_Cloud_CVPR_2020_paper.html) [源代码](https://github.com/skyhehe123/SA-SSD)
-22. [MLCVNet: Multi-Level Context VoteNet for 3D Object Detection（CVPR2020)](https://arxiv.org/abs/2004.05679) [源代码](https://github.com/NUAAXQ/MLCVNet)
-23. [3DSSD: Point-based 3D Single Stage Object Detector（CVPR2020）](https://arxiv.org/abs/2002.10187) [源代码](https://github.com/tomztyang/3DSSD)
-24. [LiDAR-based Online 3D Video Object Detection with Graph-based Message Passing and Spatiotemporal Transformer Attention（CVPR2020）](https://arxiv.org/abs/2004.01389) [源代码](https://github.com/yinjunbo/3DVID)
-25. [PV-RCNN: Point-Voxel Feature Set Abstraction for 3D Object Detection(CVPR2020)](https://arxiv.org/abs/1912.13192) [源代码](https://github.com/sshaoshuai/PV-RCNN)
-26. [Point-GNN: Graph Neural Network for 3D Object Detection in a Point Cloud（CVPR2020）](https://arxiv.org/abs/2003.01251) [源代码](https://github.com/WeijingShi/Point-GNN)
+14. [Voxel-FPN: multi-scale voxel feature aggregation in 3D object detection from point clouds](https://arxiv.org/ftp/arxiv/papers/1907/1907.05286.pdf)
+15. [STD: Sparse-to-Dense 3D Object Detector for Point Cloud](https://arxiv.org/abs/1907.10471)
+16. [Fast Point R-CNN](https://arxiv.org/abs/1908.02990)
+17. [StarNet: Targeted Computation for Object Detection in Point Clouds](https://arxiv.org/abs/1908.11069)
+18. [Class-balanced Grouping and Sampling for Point Cloud 3D Object Detection](https://arxiv.org/abs/1908.09492v1)
+19. [LaserNet: An Efficient Probabilistic 3D Object Detector for Autonomous Driving](https://arxiv.org/abs/1903.08701v1)
+20. [FVNet: 3D Front-View Proposal Generation for Real-Time Object Detection from Point Clouds](https://arxiv.org/abs/1903.10750v1)
+21. [Part-A^2 Net: 3D Part-Aware and Aggregation Neural Network for Object Detection from Point Cloud](https://arxiv.org/abs/1907.03670v1)
+22. [PointRCNN: 3D Object Proposal Generation and Detection from Point Cloud](https://arxiv.org/abs/1812.04244)
+23. [Complex-YOLO: Real-time 3D Object Detection on Point Clouds](https://arxiv.org/abs/1803.06199)
+24. [YOLO4D: A ST Approach for RT Multi-object Detection and Classification from LiDAR Point Clouds]()
+25. [YOLO3D: End-to-end real-time 3D Oriented Object Bounding Box Detection from LiDAR Point Cloud](https://arxiv.org/abs/1808.02350)
+26. [Monocular 3D Object Detection with Pseudo-LiDAR Point Cloud](https://arxiv.org/pdf/1903.09847.pdf)
+27. [Structure Aware Single-stage 3D Object Detection from Point Cloud（CVPR2020)](http://openaccess.thecvf.com/content_CVPR_2020/html/He_Structure_Aware_Single-Stage_3D_Object_Detection_From_Point_Cloud_CVPR_2020_paper.html) [源代码](https://github.com/skyhehe123/SA-SSD)
+28. [MLCVNet: Multi-Level Context VoteNet for 3D Object Detection（CVPR2020)](https://arxiv.org/abs/2004.05679) [源代码](https://github.com/NUAAXQ/MLCVNet)
+29. [3DSSD: Point-based 3D Single Stage Object Detector（CVPR2020）](https://arxiv.org/abs/2002.10187) [源代码](https://github.com/tomztyang/3DSSD)
+30. [LiDAR-based Online 3D Video Object Detection with Graph-based Message Passing and Spatiotemporal Transformer Attention（CVPR2020）](https://arxiv.org/abs/2004.01389) [源代码](https://github.com/yinjunbo/3DVID)
+31. [PV-RCNN: Point-Voxel Feature Set Abstraction for 3D Object Detection(CVPR2020)](https://arxiv.org/abs/1912.13192) [源代码](https://github.com/sshaoshuai/PV-RCNN)
+32. [Point-GNN: Graph Neural Network for 3D Object Detection in a Point Cloud（CVPR2020）](https://arxiv.org/abs/2003.01251) [源代码](https://github.com/WeijingShi/Point-GNN)
 
 #### 基于摄像头和激光雷达融合的3D目标检测
 
@@ -425,9 +435,20 @@ https://github.com/DeepTecher/awesome-autonomous-vehicle
 13. YOLACT [https://arxiv.org/pdf/1904.02689.pdf] [2019]
 14. PloarMask[https://arxiv.org/abs/1909.13226]
 
-
-
 ### 目标跟踪
+
+#### 多目标跟踪综述
+
+- SIMPLE ONLINE AND REALTIME TRACKING
+- SIMPLE ONLINE AND REALTIME TRACKING WITH A DEEP ASSOCIATION METRIC
+- Deep Learning-based Vehicle Behaviour Prediction For Autonomous Driving Applications: A Review
+- Multiple Object Tracking: A Literature Review
+- DEEP LEARNING IN VIDEO MULTI-OBJECT TRACKING: A SURVEY
+- Deep Learning for Visual Tracking: A Comprehensive Survey
+- Learning to Divide and Conquer for Online Multi-Target Tracking
+- An Experimental Survey on Correlation Filter-based Tracking
+
+#### 其它paper
 
 1. [Fully-Convolutional Siamese Networks for Object Tracking]()
 2. [Learning Multi-Domain Convolutional Neural Networks for Visual Tracking]()
@@ -491,8 +512,6 @@ https://github.com/DeepTecher/awesome-autonomous-vehicle
 21. LineNet: a Zoomable CNN for Crowdsourced High Definition Maps Modeling in Urban Environments
 22. Lane Marking Quality Assessment for Autonomous Driving
 
-
-
 ### 交通灯和信号检测
 
 1. Vision for Looking at Traffic Lights: Issues, Survey, and Perspectives
@@ -501,9 +520,28 @@ https://github.com/DeepTecher/awesome-autonomous-vehicle
 4. Traffic-Sign Detection and Classification in the Wild
 5. A Deep Learning Approach to Traffic Lights: Detection, Tracking, and Classification
 
+## 定位
 
+### 相关综述
 
+1. A survey of the state-of-the-art localization techniques and their potentials for autonomous vehicle applications
+2. Simultaneous localization and mapping: A survey of current trends in autonomous driving
 
+## 规划控制
+
+### 相关综述
+
+- A Survey of Motion Planning and ControlTechniques for Self-driving Urban Vehicles
+- A Review of Motion Planning Techniques for Automated Vehicles
+
+## 预测
+
+### 相关综述
+
+- A Review of Tracking, Prediction and Decision Making Methods for Autonomous Driving
+- Human Motion Trajectory Prediction: A Survey
+- Deep Learning-based Vehicle Behaviour Prediction For Autonomous Driving Applications: A Review
+- A survey on motion prediction and risk assessment for intelligent vehicles
 
 # 自动驾驶公司汇总
 
